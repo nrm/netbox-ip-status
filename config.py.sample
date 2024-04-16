@@ -5,3 +5,5 @@ PREFIX_TAG = "scanrig"
 LAST_SEEN_DATABASE = "db.pickle"
 # The hostname the scanner is running from
 PROD_HOSTNAME = "scanner.example.ac.uk"
+# check and tag manually added IP addresses?
+CHECK_MANUALLY_ADDED_IP = "false"

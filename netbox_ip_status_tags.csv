@@ -1,0 +1,10 @@
+name,slug,color
+found,found,111111
+ipstatus,ipstatus,111111
+lastseen:today,lastseentoday,111111
+lastseen:yesterday,lastseenyesterday,111111
+lastseen:week,lastseenweek,111111
+lastseen:month,lastseenmonth,111111
+lastseen:year,lastseenyear,111111
+lastseen:overayear,lastseenoverayear,111111
+lastseen:never,lastseennever,111111

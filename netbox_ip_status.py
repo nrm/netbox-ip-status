@@ -85,6 +85,11 @@ def update_address(ipy_address, prefix_mask):
                     address.tags.remove(tag)
                     address.tags.append(new_tag)
                     updated = True
+
+            # Check and tag manually added IP addresses tooall IP in IPAM
+            if len(address.tags) == 0:
+                address.tags.append(new_tag)
+                updated = True
             
             if updated:
                 address.save()
